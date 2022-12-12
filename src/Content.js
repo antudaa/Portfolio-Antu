@@ -1,12 +1,24 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import html from './assets/images/Skills/html5.png';
+import css from './assets/images/Skills/css-3.png';
+import bootstrap from './assets/images/Skills/bootstrap.png';
+import tailwind from './assets/images/Skills/tailwind-css.1024x615.png';
+import materialUI from './assets/images/Skills/material-ui.1024x814.png';
+import react from './assets/images/Skills/react.png';
+import reactRouter from './assets/images/Skills/react-router.1024x559.png';
+import firebase from './assets/images/Skills/file-type-firebase.746x1024.png';
+import redux from './assets/images/Skills/redux-original.1024x972.png';
+import figma from './assets/images/Skills/figma.png';
+import git from './assets/images/Skills/git.1024x1024.png';
+import nodeJS from './assets/images/Skills/nodejs.1024x627.png';
+import express from './assets/images/Skills/express-original.1024x594.png';
+import mongoDB from './assets/images/Skills/mongodb-original-wordmark.1008x1024.png';
+// import c from './assets/images/Skills/letter-c.png';
+// import python from './assets/images/Skills/python.png';
+// import javaScript from './assets/images/Skills/javaScript';
+// import java from './assets/images/Skills/java.png';
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -22,17 +34,17 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import HireMe_person from "./assets/images/HireMe/person.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+
 
 export const content = {
   nav: [
@@ -59,9 +71,9 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    firstName: "ANTU",
+    LastName: " DAS",
+    btnText: "Download Resume",
     image: Hero_person,
     hero_content: [
       {
@@ -79,6 +91,66 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
+        name: "HTML5",
+        para: "Lorem ipsum text  dummy",
+        logo: html,
+      },
+      {
+        name: "CSS3",
+        para: "Lorem ipsum text  dummy",
+        logo: css,
+      },
+      {
+        name: "Bootstrap",
+        para: "Lorem ipsum text  dummy",
+        logo: bootstrap,
+      },
+      {
+        name: "Tailwind",
+        para: "Lorem ipsum text  dummy",
+        logo: tailwind,
+      },
+      {
+        name: "React js",
+        para: "Lorem ipsum text  dummy",
+        logo: react,
+      },
+      {
+        name: "React Router",
+        para: "Lorem ipsum text  dummy",
+        logo: reactRouter,
+      },
+      {
+        name: "Material UI",
+        para: "Lorem ipsum text  dummy",
+        logo: materialUI,
+      },
+      {
+        name: "Git",
+        para: "Lorem ipsum text  dummy",
+        logo: git,
+      },
+      {
+        name: "Firebase",
+        para: "Lorem ipsum text  dummy",
+        logo: firebase,
+      },
+      {
+        name: "Redux",
+        para: "Lorem ipsum text  dummy",
+        logo: redux,
+      },
+      {
+        name: "Express JS",
+        para: "Lorem ipsum text  dummy",
+        logo: express,
+      },
+      {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: mongoDB,
+      },
+      {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
         logo: figma,
@@ -86,30 +158,10 @@ export const content = {
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
-      {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
-      },
-      {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
-      },
-      {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: nodeJS,
       },
     ],
-    icon: MdArrowForward,
+    // icon: arrow,
   },
   services: {
     title: "Services",
@@ -184,8 +236,8 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
+    image1: HireMe_person,
+    image2: HireMe_person,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },

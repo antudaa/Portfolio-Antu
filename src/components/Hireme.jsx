@@ -1,5 +1,5 @@
-const Hireme = () => {
-  return <div>Hireme</div>;
+const HireMe = () => {
+  return <div>HireMe</div>;
 };
 
-export default Hireme;
+export default HireMe;
