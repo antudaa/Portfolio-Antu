@@ -201,7 +201,7 @@ export const content = {
       {
         title: "Back End Development",
         para: "A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers. Share. Share. Hire a Top Back-end Developer Now.",
-        logo: services_logo3,
+        logo: services_logo1,
       },
     ],
   },
