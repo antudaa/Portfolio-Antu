@@ -15,6 +15,8 @@ import git from './assets/images/Skills/git.1024x1024.png';
 import nodeJS from './assets/images/Skills/nodejs.1024x627.png';
 import express from './assets/images/Skills/express-original.1024x594.png';
 import mongoDB from './assets/images/Skills/mongodb-original-wordmark.1008x1024.png';
+
+
 // import c from './assets/images/Skills/letter-c.png';
 // import python from './assets/images/Skills/python.png';
 // import javaScript from './assets/images/Skills/javaScript';
@@ -27,19 +29,18 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import person_project from "./assets/images/Hero/Antu_1-removebg-preview.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import HireMe_person from "./assets/images/HireMe/person.png";
+import HireMe_person from "./assets/images/HireMe/person2.png";
+import HireMe_person2 from "./assets/images/HireMe/person.png";
 
 // import icons from react-icons
-import { GrMail } from "react-icons/gr";
-import { MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -77,11 +78,11 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "12+",
+        text: "Months of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "6+",
         text: "Projects Worked in my career",
       },
     ],
@@ -160,26 +161,46 @@ export const content = {
         para: "Lorem ipsum text  dummy",
         logo: nodeJS,
       },
+      // {
+      //   name: "C Language",
+      //   para: "Lorem ipsum text  dummy",
+      //   logo: c,
+      // },
+      // {
+      //   name: "JavaScript",
+      //   para: "Lorem ipsum text  dummy",
+      //   logo: javaScript,
+      // },
+      // {
+      //   name: "Python",
+      //   para: "Lorem ipsum text  dummy",
+      //   logo: python,
+      // },
+      // {
+      //   name: "Java",
+      //   para: "Lorem ipsum text  dummy",
+      //   logo: java,
+      // },
     ],
     // icon: arrow,
   },
   services: {
     title: "Services",
-    subtitle: "WHAT I OFFER",
+    subtitle: "WHAT I ACTUALLY DO",
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Front End Development",
+        para: "A Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Back End Development",
+        para: "A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers. Share. Share. Hire a Top Back-end Developer Now.",
         logo: services_logo3,
       },
     ],
@@ -190,16 +211,22 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Panda Website",
         image: project1,
+        live: 'https://antudaa.github.io/panda-commerce-website/',
+        code: 'https://github.com/antudaa/panda-commerce-website'
       },
       {
-        title: "Social Media web",
+        title: "Personal Photographer Website",
         image: project2,
+        live: 'https://lens-king-108c1.web.app/',
+        code: 'https://github.com/antudaa/Lens-King-Client-Site'
       },
       {
-        title: "Creative Website",
+        title: "Buy And Sell Website",
         image: project3,
+        live: 'https://resale-land-7ef74.web.app/',
+        code: 'https://github.com/antudaa/Resale-Land-Client-Site'
       },
     ],
   },
@@ -233,32 +260,29 @@ export const content = {
       },
     ],
   },
-  Hireme: {
+  HireMe: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
     image1: HireMe_person,
-    image2: HireMe_person,
+    image2: HireMe_person2,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
+    btnText: "Contact",
   },
   Contact: {
     title: "Contect Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
-        icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        text: "antu.haks@gamil.com",
+        link: "mailto:antu.haks@gmail.com",
       },
       {
-        text: "+91 1234 56778",
-        icon: MdCall,
-        link: "https://wa.me/1234567890",
+        text: "+8801788362766",
+        link: "https://wa.me/1788362766",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "Linkedin",
+        link: "https://www.linkedin.com/in/antu-antu/",
       },
     ],
   },

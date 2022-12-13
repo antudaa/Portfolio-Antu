@@ -41,7 +41,7 @@ const Skills = () => {
     setIsOpen(false);
   }
 
-  return <section className='min-h-fit bg-bg_light_primary'>
+  return <section className='min-h-fit bg-bg_light_primary' id='skills'>
 
     <Modal
       isOpen={modalIsOpen}
@@ -49,7 +49,7 @@ const Skills = () => {
       style={customStyles}
     >
       <div className='flex items-center gap-2'>
-        <img src={selectSkills.logo} className='w-20' alt="" />
+        <img className='w-10' src={selectSkills.logo} alt="" />
         <h6>{ selectSkills.name }</h6>
       </div>
       <br />
@@ -60,18 +60,31 @@ const Skills = () => {
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci id quia eligendi.</li>
         <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
       </ul>
+      <br />
+      <div className='flex justify-end'>
+        <button onClick={closeModal} className='btn'>
+            Close
+        </button>
+      </div>
     </Modal>
 
     <div className='md:container px-5 py-14'>
-      <h2 className='md:text-3xl text-2xl'>{skills.title}</h2>
-      <h4 className='text-gray'>
+      <h2 
+      data-aos="fade-down"
+      className='title '>{skills.title}</h2>
+      <h4
+      data-aos="fade-down" 
+      className='subtitle'>
         {skills.subtitle}
       </h4>
       <br />
       <div className='flex flex-wrap gap-4 justify-center'>
         {
           skills.skills_content.map((skill, i) => (
-            <div key={i} className='bg-white sm:cursor-pointer relative group w-full flex items-center gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200'>
+            <div key={i}
+            data-aos="fade-up"
+            data-aos-delay={i * 400} 
+            className='bg-white sm:cursor-pointer relative group w-full flex items-center gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200'>
               <div >
                 <img className='w-10 group-hover:scale-125 duration-200' src={skill?.logo} alt="" />
               </div>

@@ -27,7 +27,7 @@
     @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
   }
   h2 {
-    @apply font-Inria text-5xl font-bold;
+    @apply font-Inria text-3xl md:text-5xl font-bold;
   }
   h3 {
     @apply font-Paprika text-5xl;
@@ -55,6 +55,12 @@
   .btn {
     @apply py-2 px-9 border-2 rounded-md
      border-dark_primary rounded-br-3xl font-medium;
+  }
+  .title {
+    @apply md:text-3xl text-2xl;
+  }
+  .subtitle {
+    @apply text-gray;
   }
 }
 .swiper-pagination-bullet {
