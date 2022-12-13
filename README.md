@@ -1,10 +1,10 @@
-# React_portfolio_2_startup
+# Portfolio Website
 + Vite + React + tailwind
 
 + npm i
 + npm run dev
 
-# You Learn:
+# Used Technologies:
 + react js hooks
 + folder structure
 + tailwind css
@@ -16,10 +16,7 @@
 + and more....
 
 # live preview link
-https://codeaprogram-portfolio.web.app/
 
-# Startup repository link
-https://github.com/Sridhar-C-25/React_portfolio_2_startup
 
 # packages:
 + tailwind css - https://tailwindcss.com/docs/installation
