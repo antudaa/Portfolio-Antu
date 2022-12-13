@@ -16,9 +16,9 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_6vmu30k',
-        'template_klp7y96', form.current,
-        'X_k0nQcvjGaGABzv2'
+        import.meta.env.EMAILJSId,
+        import.meta.env.EMAIL_PRIVATE_KEY, form.current,
+        import.meta.env.EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {
